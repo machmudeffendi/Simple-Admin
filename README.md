@@ -14,8 +14,8 @@
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-landing-page)
+* Clone the repo: `git clone https://github.com/machmudeffendi/Simple-Admin.git`
+* [Fork, Clone, or Download on GitHub](git@github.com:machmudeffendi/Simple-Admin.git)
 
 ## About
 
