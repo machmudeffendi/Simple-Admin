@@ -60,6 +60,40 @@ body::before{
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
+.btn-dark-base {
+  color: #fff;
+  background-color: #009195;
+  border-color: #009195;
+}
+
+.btn-dark-base:hover {
+  color: #fff;
+  background-color: #026d70;
+  border-color: #026d70;
+}
+
+.btn-dark-base:focus, .btn-dark-base.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-dark-base.disabled, .btn-dark-base:disabled {
+  color: #fff;
+  background-color: #009195;
+  border-color: #009195;
+}
+
+.btn-dark-base:not(:disabled):not(.disabled):active, .btn-dark-base:not(:disabled):not(.disabled).active,
+.show > .btn-dark-base.dropdown-toggle {
+  color: #fff;
+  background-color: #026d70;
+  border-color: #026d70;
+}
+
+.btn-dark-base:not(:disabled):not(.disabled):active:focus, .btn-dark-base:not(:disabled):not(.disabled).active:focus,
+.show > .btn-dark-base.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
 /*
  * Sidebar
  */
@@ -96,6 +130,7 @@ body::before{
 	padding: 10px 0 10px 1.2rem;
 	font-size: .95rem;
 	font-weight: 500;
+	transition: 1s;
 }
 .sidebar .sidebar-sticky .nav-item .nav-link.active{
 	color: #00c2c7;
@@ -315,4 +350,16 @@ body::before{
 
 .card{
 	opacity: 0.9;
+}
+
+.btn-rounded{
+	border-radius: 100px;
+}
+.nav-link .btn{
+	margin: -4px 10px 0 0;
+}
+
+.nav-item .collapse .nav-link{
+	padding: 10px 0 10px 2rem;
+	transition: 1s;
 }
