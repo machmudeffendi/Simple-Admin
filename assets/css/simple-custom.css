@@ -3,7 +3,7 @@ body{
 }
 
 body::before{
-	content: 'asd';
+	content: '';
 	position: fixed;
 	display: block;
 	width: 600px;
@@ -20,6 +20,18 @@ body::before{
 .text-water-mid{ color: #00c2c7; }
 .text-water-low{ color: #97ebdb; }
 .text-water-high{ color: #0086ad; }
+
+.login-body::before{
+	content: '';
+	position: fixed;
+	display: block;
+	width: 600px;
+	height: 600px;
+	border-radius: 50%;
+	background-color: #00c2c7;
+	margin: -50px 50px;
+	z-index: -1;
+}
 
 .a-card{
 	border-radius: 10px!important;
